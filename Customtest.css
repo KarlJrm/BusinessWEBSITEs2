@@ -1,0 +1,58 @@
+.pointer{
+    cursor:pointer;
+  }
+  .accordian-link h3{
+    font-size:clamp(18px,2vw,30px);
+  }
+  .user_image{
+    width:50px;
+    height:50px;
+    object-fit:contain;
+    background:#00000030;
+    border-radius:50%;
+    padding:.20rem;
+  }
+  .review_answer{
+    max-height:150px;
+    overflow-y:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+ 
+
+
+  .main-head
+  {
+   
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 5vw;
+    color: rgb(30, 36, 29);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+    5px 5px 70px rgba(255,255,255,0.5);
+
+    border: 1px solid black;
+    padding: 10px;
+    transition: 0.8s linear;
+    background-color: rgba(3, 24, 3, 0.103);
+    border-radius: 10px;
+  }
+
+  .main-head:hover{
+    background-color: rgb(3, 24, 3);
+    color: white;
+    transform: scale(0.8);
+    font-size: 3vw;
+  }
+
+  .reveiew_user_name {
+    margin-bottom: 0;
+  }
+  
+  .review_date {
+    font-size: 0.7rem; 
+    color: rgba(45, 38, 38, 0.5);
+    font-family: 'Franklin Gothic Medium';
+  }
+
+

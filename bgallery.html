@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Dictionary</title>
+    <link rel="stylesheet" href="CSSTESTER.css">
+</head>
+<body>
+    <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+
+
+ <div class="container">
+  
+    <section>
+      <a href="bGucci.html">
+      <h1>Gucci</h1>
+    </a>
+    </section>
+
+    <section>
+      <a href="bUniqlo.html">
+      <h1>Uniqlo</h1>
+      </a>
+    </section>
+
+    <section>
+      <a href="bPrada.html">
+      <h1>PRADA</h1>
+      </a>
+    </section>
+
+    <section>
+      <a href="BLouisVuitton.html">
+      <h1>louis Vuitton</h1>
+      </a>
+    </section>
+
+        <section>
+          <a href="bEventsCollab.html">
+      <h1>Collaborations</h1>
+          </a>
+    </section>
+
+    <section>
+      <a href="bPenshoppe.html">
+      <h1>Penshoppe</h1>
+      </a>
+    </section>
+
+    <section>
+      <a href="bOxygn.html">
+      <h1>Oxygn</h1>
+      </a>
+    </section>
+
+
+    
+    <section>
+      <a href="bDior.html">
+      <h1>Dior</h1>
+      </a>
+    </section>
+
+  </div>
+
+
+  <script> 
+ 
+    let observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            let h1 = entry.target.querySelector('h1');
+            if (entry.isIntersecting) {
+                h1.classList.add('fadeIn');
+            } else {
+                h1.classList.remove('fadeIn');
+            }
+        });
+    }, { threshold: [0.5] });
+    
+    document.querySelectorAll('section').forEach(section => {
+        observer.observe(section);
+    });
+    
+    
+   
+    document.querySelectorAll('section').forEach(section => {
+        section.addEventListener('mousemove', function(e) {
+            let moveX = (e.pageX * -1 / 60);
+            let moveY = (e.pageY * -1 / 60);
+            this.style.backgroundPosition = `calc(50% + ${moveX}px) calc(50% + ${moveY}px)`;
+        });
+    });</script>
+</body>
+</html>

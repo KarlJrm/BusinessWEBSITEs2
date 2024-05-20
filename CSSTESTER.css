@@ -1,0 +1,131 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .fadeIn {
+      animation: fadeIn 1s ease-in forwards;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+    .container {
+      width: 100%;
+      height: 100%;
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110vw;
+        height: 110vh;
+        scroll-snap-align: start;
+              
+        background-position: center;
+        transition: background-position 0.5s ease-out;    
+        
+        
+        &:nth-of-type(1) {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url("https://www.envimedia.co/wp-content/uploads/2023/03/GUCCI-HANNI.jpg");
+          background-size: cover;
+      
+          background-position: center;
+          background-color: rgb(28, 28, 28);
+          color: white;  
+            
+        }
+        &:nth-of-type(2) {
+          background-color: rgb(38, 38, 38);
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url("https://assets.teenvogue.com/photos/5e4eb6812d1e86000856ef58/16:9/w_3744,h_2106,c_limit/17_4810_v4-LR.jpg");
+          background-size: cover;
+          background-position: center;
+          background-color: rgb(38, 38, 38);
+          color: white;
+        }
+        &:nth-of-type(3) {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url("https://www.whatthekpop.com/wp-content/uploads/2020/09/ireyeol-scaled.jpg");
+          background-size: cover;
+          background-position: center;
+          background-color: rgb(48, 48, 48);
+          color: white;
+        }
+        &:nth-of-type(4) {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url("https://assets.teenvogue.com/photos/65296847f1157e82deb76ed7/3:2/w_2560%2Cc_limit/391404999_637243414968595_6729314908293393965_n.jpg");
+          background-size: cover;
+          background-position: center;
+          
+          background-color: rgb(58, 58, 58);
+          color: white;
+        }
+
+
+        &:nth-of-type(5) {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url("https://hololive.hololivepro.com/wp-content/uploads/2022/07/0_holocouncil_release_1.jpg");
+          background-size: cover;
+          background-position: center;
+          background-color: rgb(58, 58, 58);
+          color: white;
+        }
+
+
+        &:nth-of-type(6) {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url("https://www.hallyudorama.com/wp-content/uploads/2023/05/penshopee_go-youn-joong.jpg");
+          background-size: cover;
+          background-position: center;
+          background-color: rgb(58, 58, 58);
+          color: white;
+        }
+        &:nth-of-type(7) {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url(
+          https://pbs.twimg.com/media/DryYs8gX4AA7DUo?format=jpg&name=medium);
+          background-size: cover;
+          background-position: center;
+          background-color: rgb(58, 58, 58);
+          color: white;
+        }
+
+        &:nth-of-type(8) {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.08)), url(
+            https://wallpapers.com/images/hd/jisoo-blackpink-dior-aa1w7kee1gvyyb0a.jpg);
+          background-size: cover;
+          background-position: center;
+          background-color: rgb(58, 58, 58);
+          color: white;
+        }
+
+
+
+
+      a{
+        text-decoration: none;
+      }
+      
+
+
+        
+        h1 {
+          opacity: 0;
+   
+          font-size: clamp(3rem, 4vw, 5rem);
+
+          font-family: 'Franklin Gothic Heavy';
+       margin: 0 auto;
+          text-transform: uppercase;
+          letter-spacing: 0.25em;
+          color:white;
+          text-shadow: 2px 2px 5px rgba(0,0,0,0.3),
+          5px 5px 70px rgba(255,255,255,0.5);
+        }
+      }
+    }
+  }
+
+
+

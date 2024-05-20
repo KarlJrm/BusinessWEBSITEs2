@@ -1,0 +1,552 @@
+
+
+.navbar
+{
+    /* background-color: #B68D40; */
+    background-image: linear-gradient(90deg,#122620,#465550,#122620);
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgb(19, 41, 13) 0px 0px 80px 0px;
+    /* background: linear-gradient(to bottom left, #0b1109 20%, #FFC39E 100%); */
+    font-family: 'Franklin Gothic Medium';
+    z-index: 1;
+  
+
+}
+ .nav-link {
+        font-size: 20px;
+        margin-top: .5rem;
+        color: white;
+        
+    }
+  
+
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease; 
+    
+}
+
+.navbar-nav .nav-link:hover {
+    color: #43d685; 
+}
+
+.midtest
+{
+
+  width: clamp(20rem, 30vw, 70rem);
+}
+
+body {
+    line-height: 1.2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+  
+ .pagin,.pagination
+ {
+    background-color: #122620;
+z-index: 4;
+margin: 0;
+position: relative;
+margin-bottom: 0;
+box-shadow: 10px 10px 10px  rgb(6, 7, 6);
+
+ }
+
+ .page-item:hover{
+  color: #243a33;
+  background-color: #498672;
+
+    
+ }
+
+ .fot
+ {margin-top: 50px;
+    background-color:#08110e;
+    padding: 2rem;
+    z-index: 1;
+
+h3{
+  font-family: 'Franklin Gothic Heavy';
+  /* font-size: clamp(10px,25vw,2rem); */
+  font-size: 1.2rem;
+}
+
+.footerer
+{
+  margin-top: 24px;
+}
+   
+ }
+.footelem
+{
+  margin-top: 100px;
+  transition: 0.8s ease;
+ color: #c0c5c3;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footelem:hover
+{
+  color: #131212;
+  background-color: #d2f0e7;
+padding: 10px;
+border-radius: 25px;
+
+font-size: 18px;
+}
+
+
+ .page-item  
+ {
+    /* background-color: #D6AD60; */
+    margin: .2rem;
+    padding: 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: #f7fffd;
+    font-size:1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color 500ms ease; 
+    transition: background-color 500ms ease; 
+ }
+
+ 
+.bestsell
+{box-sizing: border-box;
+
+  margin-top: 2rem;
+
+display: flex;
+
+  h1{
+margin: 0 auto;
+border: 2px solid black;
+padding: 1.2rem;
+font-size:3vw;
+background-color: #243a33;
+font-family: 'Franklin Gothic Heavy';
+color: white;
+border-radius:10px ;
+  }
+}
+.dropdown-menu
+{
+background-color: #D6AD60;
+transition:  500ms ease; 
+padding: 1rem;
+border: 2px solid black;
+transition: background-color 500ms ease; 
+}
+.dropdown-menu:hover
+{
+  background-color: #a78952;
+  
+  
+}
+.dropdown-item
+{ 
+font-size: 1.3rem;
+transition: background-color 500ms ease; 
+transition: color 800ms ease; 
+
+
+}
+.dropdown-item:hover
+{
+
+  background-color: #e6cc78;
+  color: rgb(255, 255, 255);
+
+  
+}
+.navbar-toggler
+{
+  color: white;
+  background-color:#6a8f83;
+transition: 0.5s ease;
+}
+.navbar-toggler:hover
+{
+  color: white;
+  background-color:#6db69e;
+  outline: #122620;
+}
+
+
+ .next
+ {
+
+ }
+
+ .prev
+ {}
+
+
+
+
+
+
+
+
+ 
+
+ .devider
+ {  
+  display: flex;
+border: 2.5vw solid  #122620;
+background-color:#122620; 
+text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+  5px 5px 70px rgba(255,255,255,0.5);
+h1
+{
+  margin: 0 auto;
+  font-size: 3vw;
+  color: white;
+ 
+  font-family: 'Franklin Gothic Heavy';
+}
+ }
+
+ .devider2
+ {
+  border: .7vw solid  #122620;
+background-color:#122620; 
+ }
+
+
+ /* PARRALEX CSS JRM */
+.section2 {
+  background: url(https://www.visitbritain.com/sites/cms/files/styles/open_graph_image/public/lookatmedam/64305082-189d-44f8-8feb-4011b640defbl.jpg?h=909d1648&itok=rEBrIsso);
+  background-size: cover;
+
+  border:1px solid #222;
+ 
+}
+
+
+.text {
+  top:30%;
+  left:50%;
+  position: absolute;
+  text-align: center;
+  font-family: 'Franklin Gothic Heavy';
+  font-size: 10vw;
+  color:white;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+  5px 5px 70px rgba(255,255,255,0.5);
+  transform: scale(1,1.1) translate(-50%, 10%);
+}
+.text2 {
+  top:70%;
+  left:50%;
+  position: absolute;
+  font-family: 'Franklin Gothic Heavy';
+  font-size: 3vw;
+  color:#465550;
+  text-shadow: 2px 2px 5px rgba(245, 240, 240, 0.3),
+  5px 5px 70px rgba(255,255,255,0.5);
+  transform: scale(1,1.1) translate(-50%, 10%);
+  text-align: center;
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white;
+}
+
+.liebdes
+{
+  top:70%;
+  left:23%;
+  transform: scale(1,1.1) translate(-50%, 10%);
+}
+
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+width: 100vw;
+height: 100vh;
+background: #222;
+margin: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.section1, .section2 {
+width: 100%;
+min-height: 100vh;
+position: relative;
+  transform-style: preserve-3d;
+}
+
+
+.section1::before {
+  content:"";
+  width:100%;
+  height: 100%;
+  position: absolute;
+  background: url(https://st4.depositphotos.com/4678277/40811/i/450/depositphotos_408110334-stock-photo-full-length-body-size-view.jpg) top center;
+  background-size: cover;
+  transform: translateZ(-1px) scale(2.2);
+  filter: blur(3px);
+}
+
+.Explorere
+{
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in ;
+}
+
+.Explorere:hover
+{
+color: #ff000015;
+}
+.section1 .text {
+  top:10%;
+  transform: translateZ(-0.5px) scale(1.5,1.6) translate(-33%,10%);
+}
+
+/* PARRELX JRMEND */
+
+
+
+/* SCROLLCSS */
+.infiscroll
+{
+  font-size: clamp(10px,20vw,20px);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+z-index: 5;
+background-color:#122620;
+color: #122620;
+}
+.imgbx img
+{
+max-width: 30vw;
+transform: scale(0.8);
+filter: grayscale(1);
+
+
+}
+.imgbx{
+  transition: drop-shadow 400ms ease; 
+
+}
+.imgbx img:hover
+{
+  filter: grayscale(0);
+  cursor: pointer;
+
+
+}
+.scroll{
+
+
+position: relative;
+display: flex;
+width:110rem ;
+overflow: hidden;
+background-color: #d7eeb3;
+
+-webkit-mask-image:linear-gradient(90deg,transparent,#fff 40%,#fff 80%,transparent);
+
+
+
+}
+.scroll div{
+
+
+  white-space: nowrap ;
+  animation: animate var(--t) linear infinite;
+  animation-delay: calc(var(--t)*-1);
+
+}
+.scroll div:nth-child(2)
+{  animation: animate2 var(--t) linear infinite;
+animation-delay: calc(var(--t)/-2);
+}
+@keyframes animate {
+  
+
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(-100%);
+  }
+}
+@keyframes animate2
+{
+
+0%{
+  transform: translateX(0);
+}
+
+100%{
+  transform: translateX(-200%);
+}
+
+
+}
+.scroll div span{
+
+
+display: inline-flex;
+margin: 10px;
+background-color:#172722;
+letter-spacing: 0.2em;
+color: white;
+border-radius: 5px;
+transition: 0.5s;
+padding: 1rem;
+text-transform: uppercase;
+
+}
+
+.scroll div span:hover
+{
+  background-color:#25462b;
+  cursor: pointer;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+  5px 5px 70px rgba(255,255,255,0.5);
+}
+
+
+
+/* SCROLLCSS END*/
+
+/* cards */
+
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+.card img:hover{
+  transform: scale(1.4);
+  
+}
+img {
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+transition: 0.5s ease-in;
+z-index: -1;
+}
+
+.btn {
+color: #ffffff;
+padding: 0.8rem;
+font-size: 1rem;
+text-transform: uppercase;
+
+border-radius: 4px;
+font-weight: 400;
+display: block;
+width: 100%;
+cursor: pointer;
+border: 1px solid rgba(255, 255, 255, 0.2);
+background: transparent;
+
+font-family: 'Franklin Gothic Medium';
+transition: 0.4s ease-in;
+}
+
+.btn:hover {
+
+background-color: #3a5037;
+padding: 30px;
+color: #dfebe7;
+text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+  5px 5px 70px rgba(255,255,255,0.5);
+  font-size:25px;
+  transform: scale(0.8);
+  font-family: 'Franklin Gothic Heavy';
+  
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin: 0;
+padding: 0;
+align-items: center;
+position: relative;
+}
+
+.cards_item {
+display: flex;
+padding: 1rem;
+justify-content: center;
+
+}
+
+@media (min-width: 40rem) {
+.cards_item {
+  width: 50%;
+}
+}
+
+@media (min-width: 56rem) {
+.cards_item {
+  width: 33.3333%;
+}
+}
+
+.card {
+background-color: white;
+border-radius: 0.25rem;
+box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+overflow: hidden;
+}
+
+.card_content {
+padding: 1rem;
+background: linear-gradient(to bottom left, #0b1109 40%, #3a5037 100%);
+position: relative;
+}
+
+.card_title {
+color: #ffffff;
+font-size: 1.1rem;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: capitalize;
+margin: 0px;
+z-index: 5;
+text-shadow: 2px 2px 5px rgba(0,0,0,0.3),
+5px 5px 70px rgba(255,255,255,0.5);
+text-align: center;
+font-size: clamp(20px,25vw,1.4rem);
+font-family: 'Franklin Gothic Heavy';
+}
+
+.card_text {
+color: #ffffff;
+font-size: 0.875rem;
+line-height: 1.5;
+margin-bottom: 1.25rem;    
+font-weight: 400;
+
+}
+.card_image img {
+  width: 500px; 
+  height: 300px; 
+  object-fit: cover; 
+
+}

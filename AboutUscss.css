@@ -1,0 +1,124 @@
+.additionalabout {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #111c0e 40%, #3a5037 100%);
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.additionalabout .midname2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Heavy';
+    color: azure;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+    5px 5px 70px rgba(255,255,255,0.5);
+}
+
+.additionalabout .container-fluid {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.additionalabout .AboutPages {
+    margin: 20px;
+    text-align: center;
+}
+
+.additionalabout .AboutPages img {
+    width: 10rem;
+    height: 10rem; 
+    border-radius: 25px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition:  0.4s linear; 
+}
+
+.additionalabout .AboutPages:hover img {
+    transform: scale(1.2); 
+    transform: scale(1.2) translate(20px, -20px);
+    box-shadow: rgba(255, 255, 255, 0.4) -5px 5px, rgba(255, 255, 255, 0.3) -10px 10px, rgba(255, 255, 255, 0.2) -15px 15px, rgba(255, 255, 255, 0.1) -20px 20px, rgba(255, 255, 255, 0.05) -25px 25px;
+}
+
+.additionalabout .AboutPages h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 24px;
+    color: azure;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+    5px 5px 70px rgba(255,255,255,0.5);
+}
+
+.additionalabout .AboutPages p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #fefffe;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+    5px 5px 70px rgba(255,255,255,0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.additionalabout a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+    .additionalabout .container-fluid {
+        flex-direction: row;
+    }
+    
+    .additionalabout .AboutPages {
+        flex: 1 1 50%;
+    }
+    
+    .additionalabout .AboutPages img {
+        width: 100%;
+        height: auto;
+    }
+
+    .additionalabout .AboutPages h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .additionalabout .AboutPages p {
+        font-size: 1rem;
+    }
+}
+
+body{
+    background: linear-gradient(to bottom left, #161d14 40%, #718070 100%);
+}
+
+.description2
+{
+    color: rgb(255, 255, 255);
+    font-size: clamp(1.4rem, 4vw, 1rem);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.teama {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Heavy';
+    color: azure;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3),
+    5px 5px 70px rgba(255,255,255,0.5);
+}
